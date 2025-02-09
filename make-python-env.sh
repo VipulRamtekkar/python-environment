@@ -40,8 +40,8 @@ repos:
       - id: mypy
 EOL
 
+source .venv/bin/activate
+git init 
 # Install pre-commit hooks
 pre-commit install
-
 echo "Setup complete!"
-
